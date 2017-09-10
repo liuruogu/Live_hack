@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<style>
+
+body{
+	height: 100vh;
+}
+
+#status{
+	height: 33.33%;
+	background: white;
+	transition: background 0.5s linear;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+}
+
+#mid{
+	height: 33.33%;
+	background: white;
+	transition: background 0.5s linear;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+}	
+
+
+#low{
+	height: 33.33%;
+	background: white;
+	transition: background 0.5s linear;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+}
+
+.bar{
+	width: 100%;
+	display: inline-block;
+    vertical-align: bottom;
+    position: absolute;
+}
+
+.bar-1 {
+    position: fixed;
+    overflow: visible;
+	bottom: 66.66%;
+	}
+.bar-2 {
+    position: fixed;
+    overflow: visible;
+	bottom: 33.33%;
+	}
+.bar-3 {
+    position: fixed;
+    overflow: visible;
+	bottom: 0%;
+	}
+
+
+</style>
+
+<body id="container">
+
+<div id="status" class="bar bar-1"></div>
+<div id="mid" class="bar bar-2"></div>
+<div id="low" class="bar bar-3"></div>
+
+</body>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous">
+</script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+<script src="js/light.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+</html>
+
